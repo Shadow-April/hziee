@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "D:/HZIEE/2-COCP/2-Prac/P5-1/Voting/Voting_M.xst" -ofn "D:/HZIEE/2-COCP/2-Prac/P5-1/Voting/Voting_M.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Voting_M_C.ucf -uc Voting_M.ucf -p xa7a100t-csg324-2I Voting_M.ngc Voting_M.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Voting_M_map.ncd Voting_M.ngd Voting_M.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Voting_M_C.ucf -uc Voting_M.ucf -p xa7a100t-csg324-2I Voting_M.ngc Voting_M.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Voting_M_map.ncd Voting_M.ngd Voting_M.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Voting_M_C.ucf -uc Voting_M.ucf -p xa7a100t-csg324-2I Voting_M.ngc Voting_M.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Voting_M_map.ncd Voting_M.ngd Voting_M.pcf 
+xst -intstyle ise -ifn "D:/HZIEE/2-COCP/2-Prac/P5-1/Voting/Voting_M.xst" -ofn "D:/HZIEE/2-COCP/2-Prac/P5-1/Voting/Voting_M.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Voting_M_C.ucf -uc Voting_M.ucf -p xa6slx16-csg324-3 Voting_M.ngc Voting_M.ngd  
+map -intstyle ise -p xa6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Voting_M_map.ncd Voting_M.ngd Voting_M.pcf 
+par -w -intstyle ise -ol high -mt off Voting_M_map.ncd Voting_M.ncd Voting_M.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Voting_M.twx Voting_M.ncd -o Voting_M.twr Voting_M.pcf -ucf Voting_M_C.ucf -ucf Voting_M.ucf 
+bitgen -intstyle ise -f Voting_M.ut Voting_M.ncd 

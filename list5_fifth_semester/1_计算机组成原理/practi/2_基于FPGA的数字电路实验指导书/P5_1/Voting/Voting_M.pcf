@@ -1,0 +1,13 @@
+//! **************************************************************************
+// Written by: Map P.58f on Sat Sep 05 13:05:46 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "A" LOCATE = SITE "T5" LEVEL 1;
+COMP "B" LOCATE = SITE "V8" LEVEL 1;
+COMP "C" LOCATE = SITE "U8" LEVEL 1;
+COMP "D" LOCATE = SITE "N8" LEVEL 1;
+COMP "E" LOCATE = SITE "M8" LEVEL 1;
+COMP "F" LOCATE = SITE "T11" LEVEL 1;
+SCHEMATIC END;
+

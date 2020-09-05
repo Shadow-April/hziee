@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Sat Sep 05 12:56:26 2020
+# Process ID: 19792
+# Log file: D:/HZIEE/2-COCP/2-Prac/P5-1/Voting/planAhead_run_2/planAhead.log
+# Journal file: D:/HZIEE/2-COCP/2-Prac/P5-1/Voting/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1374 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/HZIEE/2-COCP/2-Prac/P5-1/Voting/pa.fromHdl.tcl
+# create_project -name Voting -dir "D:/HZIEE/2-COCP/2-Prac/P5-1/Voting/planAhead_run_2" -part xa7a100tcsg324-2I
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "D:/HZIEE/2-COCP/2-Prac/P5-1/Voting/Voting_M_C.ucf" [current_fileset -constrset]
+Adding file 'D:/HZIEE/2-COCP/2-Prac/P5-1/Voting/Voting_M_C.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {Voting_M.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top Voting_M $srcset
+# add_files [list {Voting_M_C.ucf}] -fileset [get_property constrset [current_run]]
+# add_files [list {Voting_M.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xa7a100tcsg324-2I
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "D:/HZIEE/2-COCP/2-Prac/P5-1/Voting/Voting_M.v" into library work
+Loading clock regions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/artix7/aartix7/xa7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/artix7/aartix7/xa7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/artix7/aartix7/xa7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/artix7/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/artix7/drc.xml
+Parsing UCF File [D:/HZIEE/2-COCP/2-Prac/P5-1/Voting/Voting_M_C.ucf]
+CRITICAL WARNING: [Designutils 20-30] Unrecognized site V3 [D:/HZIEE/2-COCP/2-Prac/P5-1/Voting/Voting_M_C.ucf:4]
+Finished Parsing UCF File [D:/HZIEE/2-COCP/2-Prac/P5-1/Voting/Voting_M_C.ucf]
+Parsing UCF File [D:/HZIEE/2-COCP/2-Prac/P5-1/Voting/Voting_M.ucf]
+Finished Parsing UCF File [D:/HZIEE/2-COCP/2-Prac/P5-1/Voting/Voting_M.ucf]
+INFO: [Designutils 20-20] Invalid constraints found, use command 'write_ucf -constraints invalid <file>' to save all the invalid constraints to a file
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: b6b926ef
+open_rtl_design: Time (s): elapsed = 00:00:11 . Memory (MB): peak = 792.449 ; gain = 357.727
+update_compile_order -fileset sim_1
