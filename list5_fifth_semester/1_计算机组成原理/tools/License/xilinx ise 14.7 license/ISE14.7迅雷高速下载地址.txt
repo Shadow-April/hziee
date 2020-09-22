@@ -1,0 +1,32 @@
+ISE14.7迅雷下载地址：
+https://xilinx-ax-dl.entitlenow.com/dl/ul/2013/10/16/R209855195/Xilinx_ISE_DS_Win_14.7_1015_1.tar/de6d4cb698a5175b4c228fa45112bc13/53B51098?akdm=0&filename=Xilinx_ISE_DS_Win_14.7_1015_1.tar
+
+
+程序烧录软件Digilent.adept.system_v2.15.3百度网盘下载地址：
+https://pan.baidu.com/s/1JIJ5MCO1po4Wl5jQvobsgw 密码：atp9
+
+
+安装教程地址：
+http://blog.chinaaet.com/crazybird/p/39693
+
+win10环境下安装完成后可能出现以下问题：
+1.没有自动弹出导入license文件的窗口。
+解决方法：
+在安装目录的以下路径找到xlcm文件双击打开即可（本人安装在G盘所以是这样的）G:\xilinxISE14.7\14.7\ISE_DS\common\bin\nt\xlcm
+（bin文件夹里面有nt或者nt64两个文件夹随便一个都可以的！）
+
+2.安装完成后，双击桌面快捷方式运行软件后马上弹出运行错误窗口然后闪退。
+解决方法：
+在安装目录以下路径找到这个ise.exe文件然后发送到桌面快捷方式即可，路径：G:\xilinxISE14.7\14.7\ISE_DS\ISE\bin\nt\ise
+（同样的bin文件夹里面有nt或者nt64两个文件夹随便一个都可以的！）
+
+3.Simulation仿真出错无法使用。一般提示"ERROR:Simulator:861 – Failed to link the design"。
+解决方法：
+先下载这个（链接：https://pan.baidu.com/s/1eACmzdFU0LGkMTAyHq75IQ 密码：xgxo）解压出这个名字为nt的文件夹，把这个文件夹整个覆盖原来在安装目录下的nt文件夹，
+路径如下G:\xilinxISE14.7\14.7\ISE_DS\ISE\gnu\MinGW\5.0.0\
+
+
+
+注意：
+上述ISE14.7安装包缺乏license文件，这个破解需要用到的license文件百度网盘下载地址是：
+https://pan.baidu.com/s/1QQ7B_90xxgH99ij2-0MKFg 密码：5zgj
