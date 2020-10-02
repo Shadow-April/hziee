@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/HZIEE/2-COCP/2-Prac/P0-1/ShiftReg/ShiftReg_M.xst" -ofn "D:/HZIEE/2-COCP/2-Prac/P0-1/ShiftReg/ShiftReg_M.syr" 

@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Fri Oct 02 10:50:30 2020
+# Process ID: 12264
+# Log file: D:/HZIEE/2-COCP/2-Prac/P0-1/ShiftReg/planAhead_run_3/planAhead.log
+# Journal file: D:/HZIEE/2-COCP/2-Prac/P0-1/ShiftReg/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/HZIEE/2-COCP/2-Prac/P0-1/ShiftReg/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

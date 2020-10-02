@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Thu Oct 01 21:04:29 2020
+# Process ID: 8332
+# Log file: D:/HZIEE/2-COCP/2-Prac/P0-1/ShiftReg/planAhead_run_1/planAhead.log
+# Journal file: D:/HZIEE/2-COCP/2-Prac/P0-1/ShiftReg/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/HZIEE/2-COCP/2-Prac/P0-1/ShiftReg/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin T11 [get_ports {Q[3]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {Q[2]}]
+endgroup
+set_property package_pin "" [get_ports [list  {Q[1]}]]
+startgroup
+set_property package_pin R11 [get_ports {Q[2]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {Q[1]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {Q[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  clk]]
+set_property package_pin "" [get_ports [list  clk]]
+set_property package_pin "" [get_ports [list  Din]]
+startgroup
+set_property package_pin T5 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports clr]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports Din]
+endgroup
+save_constraints

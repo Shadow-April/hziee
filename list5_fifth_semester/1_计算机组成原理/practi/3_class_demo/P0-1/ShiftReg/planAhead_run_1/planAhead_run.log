@@ -1,0 +1,83 @@
+
+****** PlanAhead v14.5 (64-bit)
+  **** Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1400 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/HZIEE/2-COCP/2-Prac/P0-1/ShiftReg/pa.fromHdl.tcl
+# create_project -name ShiftReg -dir "D:/HZIEE/2-COCP/2-Prac/P0-1/ShiftReg/planAhead_run_1" -part xa6slx16csg324-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "Top.ucf" [current_fileset -constrset]
+Adding file 'D:/HZIEE/2-COCP/2-Prac/P0-1/ShiftReg/Top.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {ShiftReg_M.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {clk_divf.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Top.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top Top $srcset
+# add_files [list {Top.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xa6slx16csg324-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "D:/HZIEE/2-COCP/2-Prac/P0-1/ShiftReg/ShiftReg_M.v" into library work
+Analyzing Verilog file "D:/HZIEE/2-COCP/2-Prac/P0-1/ShiftReg/clk_divf.v" into library work
+Analyzing Verilog file "D:/HZIEE/2-COCP/2-Prac/P0-1/ShiftReg/Top.v" into library work
+Loading clock regions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/aspartan6/xa6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/aspartan6/xa6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/aspartan6/xa6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [D:/HZIEE/2-COCP/2-Prac/P0-1/ShiftReg/Top.ucf]
+Finished Parsing UCF File [D:/HZIEE/2-COCP/2-Prac/P0-1/ShiftReg/Top.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 3cc684b5
+open_rtl_design: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 627.363 ; gain = 188.855
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin T11 [get_ports {Q[3]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {Q[2]}]
+endgroup
+set_property package_pin "" [get_ports [list  {Q[1]}]]
+startgroup
+set_property package_pin R11 [get_ports {Q[2]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {Q[1]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {Q[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  clk]]
+set_property package_pin "" [get_ports [list  clk]]
+set_property package_pin "" [get_ports [list  Din]]
+startgroup
+set_property package_pin T5 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports clr]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports Din]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Oct 01 21:52:20 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead
