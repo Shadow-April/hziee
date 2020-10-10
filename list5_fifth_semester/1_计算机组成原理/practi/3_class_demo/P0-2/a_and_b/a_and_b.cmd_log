@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "D:/HZIEE/2-COCP/ChipVerify/P0-3/a_and_b/a_and_b.xst" -ofn "D:/HZIEE/2-COCP/ChipVerify/P0-3/a_and_b/a_and_b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx16-csg324-3 a_and_b.ngc a_and_b.ngd  
+map -intstyle ise -p xa6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_and_b_map.ncd a_and_b.ngd a_and_b.pcf 
+par -w -intstyle ise -ol high -mt off a_and_b_map.ncd a_and_b.ncd a_and_b.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml a_and_b.twx a_and_b.ncd -o a_and_b.twr a_and_b.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc a_and_b.ucf -p xa6slx16-csg324-3 a_and_b.ngc a_and_b.ngd  
+map -intstyle ise -p xa6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o a_and_b_map.ncd a_and_b.ngd a_and_b.pcf 
+par -w -intstyle ise -ol high -mt off a_and_b_map.ncd a_and_b.ncd a_and_b.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml a_and_b.twx a_and_b.ncd -o a_and_b.twr a_and_b.pcf -ucf a_and_b.ucf 
+bitgen -intstyle ise -f a_and_b.ut a_and_b.ncd 

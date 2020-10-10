@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Sat Oct 10 12:09:37 2020
+# Process ID: 1184
+# Log file: D:/HZIEE/2-COCP/ChipVerify/P0-3/four_bit_selector/planAhead_run_1/planAhead.log
+# Journal file: D:/HZIEE/2-COCP/ChipVerify/P0-3/four_bit_selector/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/HZIEE/2-COCP/ChipVerify/P0-3/four_bit_selector/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin T9 [get_ports E0]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports E1]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports F]
+endgroup
+startgroup
+set_property package_pin T5 [get_ports A]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports B]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports C]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports D]
+endgroup
+save_constraints

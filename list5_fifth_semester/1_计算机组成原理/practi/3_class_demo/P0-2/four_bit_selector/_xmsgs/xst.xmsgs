@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="751" delta="old" >"D:\HZIEE\2-COCP\ChipVerify\P0-3\four_bit_selector\four_bit_ds.v" Line 25: Redeclaration of ansi port <arg fmt="%s" index="1">A</arg> is not allowed
+</msg>
+
+</messages>

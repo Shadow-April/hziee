@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Sat Oct 10 11:33:58 2020
+# Process ID: 5328
+# Log file: D:/HZIEE/2-COCP/ChipVerify/P0-3/dff/planAhead_run_1/planAhead.log
+# Journal file: D:/HZIEE/2-COCP/ChipVerify/P0-3/dff/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/HZIEE/2-COCP/ChipVerify/P0-3/dff/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin V10 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin T5 [get_ports d]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports q]
+endgroup
+startgroup
+set_property package_pin C9 [get_ports rstn]
+endgroup
+save_constraints
