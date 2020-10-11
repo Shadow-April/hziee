@@ -1,0 +1,19 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/HZIEE/2-COCP/ChipVerify/P0-3/four_bit_selector/selector_tb_isim_beh.exe -prj D:/HZIEE/2-COCP/ChipVerify/P0-3/four_bit_selector/selector_tb_beh.prj work.selector_tb work.glbl 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/HZIEE/2-COCP/ChipVerify/P0-3/four_bit_selector/four_bit_ds.v" into library work
+WARNING:HDLCompiler:751 - "D:/HZIEE/2-COCP/ChipVerify/P0-3/four_bit_selector/four_bit_ds.v" Line 25: Redeclaration of ansi port A is not allowed
+Analyzing Verilog file "D:/HZIEE/2-COCP/ChipVerify/P0-3/four_bit_selector/selector_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module four_bit_ds
+Compiling module selector_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 3 Verilog Units
+Built simulation executable D:/HZIEE/2-COCP/ChipVerify/P0-3/four_bit_selector/selector_tb_isim_beh.exe
+Fuse Memory Usage: 28712 KB
+Fuse CPU Usage: 467 ms
