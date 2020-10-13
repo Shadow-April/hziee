@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "G:/TOOLS/Xilinx/project/DEMO/MUX21a/MUX21a.xst" -ofn "G:/TOOLS/Xilinx/project/DEMO/MUX21a/MUX21a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 MUX21a.ngc MUX21a.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MUX21a_map.ncd MUX21a.ngd MUX21a.pcf 
+par -w -intstyle ise -ol high -mt off MUX21a_map.ncd MUX21a.ncd MUX21a.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MUX21a.twx MUX21a.ncd -o MUX21a.twr MUX21a.pcf 
+bitgen -intstyle ise -f MUX21a.ut MUX21a.ncd 

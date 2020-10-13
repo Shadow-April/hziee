@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "G:/TOOLS/Xilinx/project/DEMO/MUX41a_DataStreamDescrib/MUX41a.xst" -ofn "G:/TOOLS/Xilinx/project/DEMO/MUX41a_DataStreamDescrib/MUX41a.syr" 
+xst -intstyle ise -ifn "G:/TOOLS/Xilinx/project/DEMO/MUX41a_DataStreamDescrib/MUX41a.xst" -ofn "G:/TOOLS/Xilinx/project/DEMO/MUX41a_DataStreamDescrib/MUX41a.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 MUX41a.ngc MUX41a.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MUX41a_map.ncd MUX41a.ngd MUX41a.pcf 
+par -w -intstyle ise -ol high -mt off MUX41a_map.ncd MUX41a.ncd MUX41a.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MUX41a.twx MUX41a.ncd -o MUX41a.twr MUX41a.pcf 
+bitgen -intstyle ise -f MUX41a.ut MUX41a.ncd 
