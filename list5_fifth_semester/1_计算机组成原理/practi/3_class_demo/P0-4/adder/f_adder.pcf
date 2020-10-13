@@ -1,0 +1,12 @@
+//! **************************************************************************
+// Written by: Map P.58f on Tue Oct 13 18:35:29 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "ain" LOCATE = SITE "T5" LEVEL 1;
+COMP "bin" LOCATE = SITE "V8" LEVEL 1;
+COMP "cin" LOCATE = SITE "U8" LEVEL 1;
+COMP "cout" LOCATE = SITE "V16" LEVEL 1;
+COMP "sum" LOCATE = SITE "U16" LEVEL 1;
+SCHEMATIC END;
+

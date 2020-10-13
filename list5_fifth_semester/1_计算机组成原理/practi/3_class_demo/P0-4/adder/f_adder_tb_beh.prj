@@ -1,0 +1,5 @@
+verilog work "or2a.v"
+verilog work "h_adder.v"
+verilog work "f_adder.v"
+verilog work "f_adder_tb.v"
+verilog work "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v"

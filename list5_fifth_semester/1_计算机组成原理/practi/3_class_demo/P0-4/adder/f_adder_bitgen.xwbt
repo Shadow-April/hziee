@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\HZIEE\2-COCP\ChipVerify\P0-3\adder\f_adder.ncd
+OUTFILE=D:\HZIEE\2-COCP\ChipVerify\P0-3\adder\f_adder.bit
+FAMILY=Automotive Spartan6
+PART=xa6slx16-3csg324
+WORKINGDIR=D:\HZIEE\2-COCP\ChipVerify\P0-3\adder
+LICENSE=WebPack
+USER_INFO=135256_15690819_173552794_661

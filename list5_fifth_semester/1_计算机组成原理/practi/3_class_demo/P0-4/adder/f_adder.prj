@@ -1,0 +1,3 @@
+verilog work "or2a.v"
+verilog work "h_adder.v"
+verilog work "f_adder.v"
