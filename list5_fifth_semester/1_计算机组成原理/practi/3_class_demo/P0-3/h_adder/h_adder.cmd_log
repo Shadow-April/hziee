@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "D:/HZIEE/2-COCP/ChipVerify/P0-3/h_adder/h_adder.xst" -ofn "D:/HZIEE/2-COCP/ChipVerify/P0-3/h_adder/h_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa6slx16-csg324-3 h_adder.ngc h_adder.ngd  
+map -intstyle ise -p xa6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o h_adder_map.ncd h_adder.ngd h_adder.pcf 
+par -w -intstyle ise -ol high -mt off h_adder_map.ncd h_adder.ncd h_adder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml h_adder.twx h_adder.ncd -o h_adder.twr h_adder.pcf 
+bitgen -intstyle ise -f h_adder.ut h_adder.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc h_adder.ucf -p xa6slx16-csg324-3 h_adder.ngc h_adder.ngd  
+map -intstyle ise -p xa6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o h_adder_map.ncd h_adder.ngd h_adder.pcf 
+par -w -intstyle ise -ol high -mt off h_adder_map.ncd h_adder.ncd h_adder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml h_adder.twx h_adder.ncd -o h_adder.twr h_adder.pcf -ucf h_adder.ucf 
+bitgen -intstyle ise -f h_adder.ut h_adder.ncd 

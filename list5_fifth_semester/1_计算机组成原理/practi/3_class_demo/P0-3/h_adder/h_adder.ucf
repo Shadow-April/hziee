@@ -1,0 +1,8 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "a" LOC = T5;
+NET "b" LOC = V8;
+NET "co" LOC = V16;
+NET "so" LOC = U16;
+NET "p1" LOC = T9;
