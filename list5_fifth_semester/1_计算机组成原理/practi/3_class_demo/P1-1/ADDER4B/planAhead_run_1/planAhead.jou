@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Thu Oct 15 20:38:48 2020
+# Process ID: 15536
+# Log file: D:/HZIEE/2-COCP/2-Prac/P1-1/ADDER4B/planAhead_run_1/planAhead.log
+# Journal file: D:/HZIEE/2-COCP/2-Prac/P1-1/ADDER4B/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/HZIEE/2-COCP/2-Prac/P1-1/ADDER4B/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin V15 [get_ports {S[3]}]
+endgroup
+startgroup
+set_property package_pin U15 [get_ports {S[2]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports {S[1]}]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports {S[0]}]
+endgroup
+startgroup
+set_property package_pin T15 [get_ports {A[3]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {A[2]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {A[1]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {A[0]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {B[3]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {B[2]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {B[1]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {B[0]}]
+endgroup
+save_constraints
+refresh_design
