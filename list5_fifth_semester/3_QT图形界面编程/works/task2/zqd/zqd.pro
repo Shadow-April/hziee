@@ -14,13 +14,20 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         zqd.cpp \
-    logindialog.cpp
+    logindialog.cpp \
+    user_info.cpp \
+    point.cpp
 
 HEADERS  += zqd.h \
-    logindialog.h
+    logindialog.h \
+    user_info.h \
+    point.h
 
 FORMS    += zqd.ui \
-    logindialog.ui
+    logindialog.ui \
+    user_info.ui
+
+CONFIG += C++11
 
 RESOURCES += \
     myimages.qrc
