@@ -1,0 +1,5 @@
+verilog work "adder1b.v"
+verilog work "mux21.v"
+verilog work "full_adder4b.v"
+verilog work "comp.v"
+verilog work "abs_dif.v"

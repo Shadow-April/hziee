@@ -1,0 +1,37 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif_tb_isim_beh.exe -prj D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif_tb_beh.prj work.abs_dif_tb work.glbl 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/adder1b.v" into library work
+Analyzing Verilog file "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/mux21.v" into library work
+Analyzing Verilog file "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/full_adder4b.v" into library work
+Analyzing Verilog file "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/comp.v" into library work
+Analyzing Verilog file "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif.v" into library work
+Analyzing Verilog file "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:835 - "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif.v" Line 30: Too many parameters for module instance mux1
+WARNING:HDLCompiler:835 - "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif.v" Line 32: Too many parameters for module instance mux2
+WARNING:HDLCompiler:1016 - "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif.v" Line 27: Port agb is not connected to this instance
+WARNING:HDLCompiler:189 - "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif.v" Line 30: Size mismatch in connection of port <q>. Formal port size is 1-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif.v" Line 32: Size mismatch in connection of port <q>. Formal port size is 1-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif.v" Line 35: Size mismatch in connection of port <a>. Formal port size is 4-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif.v" Line 36: Size mismatch in connection of port <a>. Formal port size is 4-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif.v" Line 37: Size mismatch in connection of port <a>. Formal port size is 4-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif.v" Line 38: Size mismatch in connection of port <a>. Formal port size is 4-bit while actual signal size is 1-bit.
+Completed static elaboration
+Compiling module comp
+Compiling module udp_mux21
+Compiling module mux21
+Compiling module adder1b
+Compiling module full_adder4b
+Compiling module abs_dif
+Compiling module abs_dif_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 8 Verilog Units
+Built simulation executable D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif_tb_isim_beh.exe
+Fuse Memory Usage: 29172 KB
+Fuse CPU Usage: 421 ms

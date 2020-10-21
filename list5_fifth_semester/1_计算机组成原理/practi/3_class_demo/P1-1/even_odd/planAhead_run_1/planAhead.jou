@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Wed Oct 21 22:34:19 2020
+# Process ID: 10808
+# Log file: D:/HZIEE/2-COCP/2-Prac/P1-1/even_odd/planAhead_run_1/planAhead.log
+# Journal file: D:/HZIEE/2-COCP/2-Prac/P1-1/even_odd/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/HZIEE/2-COCP/2-Prac/P1-1/even_odd/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin T5 [get_ports {a[7]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {a[6]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {a[5]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {a[4]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {a[5]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {a[4]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {a[3]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {a[2]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {a[1]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {a[0]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports even]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports odd]
+endgroup
+save_constraints

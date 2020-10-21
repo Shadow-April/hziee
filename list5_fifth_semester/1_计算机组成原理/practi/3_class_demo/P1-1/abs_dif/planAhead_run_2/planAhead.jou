@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Wed Oct 21 20:14:41 2020
+# Process ID: 8844
+# Log file: D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/planAhead_run_2/planAhead.log
+# Journal file: D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin T5 [get_ports {a[3]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {a[2]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {a[1]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {a[0]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {b[3]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {b[2]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {b[1]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {b[0]}]
+endgroup
+startgroup
+set_property package_pin T11 [get_ports {s[3]}]
+endgroup
+startgroup
+set_property package_pin R11 [get_ports {s[2]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {s[1]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {s[0]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports ci]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports co]
+endgroup
+save_constraints

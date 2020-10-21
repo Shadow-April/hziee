@@ -1,0 +1,95 @@
+#-----------------------------------------------------------
+# PlanAhead v14.5 (64-bit)
+# Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+# Start of session at: Wed Oct 21 19:56:19 2020
+# Process ID: 14696
+# Log file: D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/planAhead_run_1/planAhead.log
+# Journal file: D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1420 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/pa.fromHdl.tcl
+# create_project -name abs_dif -dir "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/planAhead_run_1" -part xa6slx16csg324-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "mux21.ucf" [current_fileset -constrset]
+Adding file 'D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/mux21.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {mux21.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top mux21 $srcset
+# add_files [list {mux21.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xa6slx16csg324-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/mux21.v" into library work
+Loading clock regions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/aspartan6/xa6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/aspartan6/xa6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/aspartan6/xa6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/mux21.ucf]
+Finished Parsing UCF File [D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/mux21.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 499b85d0
+open_rtl_design: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 622.656 ; gain = 187.473
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin T5 [get_ports {in0[3]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {in0[2]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {in0[1]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {in0[0]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {in1[3]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {in1[2]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {in1[1]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {in1[0]}]
+endgroup
+startgroup
+set_property package_pin V15 [get_ports {out[3]}]
+endgroup
+startgroup
+set_property package_pin U15 [get_ports {out[2]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports {out[1]}]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports {out[0]}]
+endgroup
+startgroup
+set_property package_pin C9 [get_ports sel]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif\planAhead_pid14696.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed Oct 21 19:58:53 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead

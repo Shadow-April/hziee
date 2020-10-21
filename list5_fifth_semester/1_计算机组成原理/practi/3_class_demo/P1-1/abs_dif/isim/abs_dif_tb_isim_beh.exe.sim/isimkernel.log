@@ -1,0 +1,28 @@
+Command line:
+   abs_dif_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64527
+
+Wed Oct 21 21:15:08 2020
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5158.9 Meg
+
+ Total Signals          : 143
+ Total Nets             : 95
+ Total Signal Drivers   : 50
+ Total Blocks           : 28
+ Total Primitive Blocks : 20
+ Total Processes        : 53
+ Total Traceable Variables  : 29
+ Total Scalar Nets and Variables : 378
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 4687.04 Meg
+
+Wed Oct 21 22:07:08 2020
+

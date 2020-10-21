@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/full_adder4b.xst" -ofn "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/full_adder4b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux21.ucf -p xa6slx16-csg324-3 full_adder4b.ngc full_adder4b.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux21.ucf -p xa6slx16-csg324-3 full_adder4b.ngc full_adder4b.ngd  
+xst -intstyle ise -ifn "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/full_adder4b.xst" -ofn "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/full_adder4b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux21.ucf -p xa6slx16-csg324-3 full_adder4b.ngc full_adder4b.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux21.ucf -p xa6slx16-csg324-3 full_adder4b.ngc full_adder4b.ngd  
+map -intstyle ise -p xa6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o full_adder4b_map.ncd full_adder4b.ngd full_adder4b.pcf 
+par -w -intstyle ise -ol high -mt off full_adder4b_map.ncd full_adder4b.ncd full_adder4b.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml full_adder4b.twx full_adder4b.ncd -o full_adder4b.twr full_adder4b.pcf -ucf mux21.ucf 
+bitgen -intstyle ise -f full_adder4b.ut full_adder4b.ncd 
+xst -intstyle ise -ifn "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/full_adder4b.xst" -ofn "D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/full_adder4b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mux21.ucf -p xa6slx16-csg324-3 full_adder4b.ngc full_adder4b.ngd  
+map -intstyle ise -p xa6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o full_adder4b_map.ncd full_adder4b.ngd full_adder4b.pcf 
+par -w -intstyle ise -ol high -mt off full_adder4b_map.ncd full_adder4b.ncd full_adder4b.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml full_adder4b.twx full_adder4b.ncd -o full_adder4b.twr full_adder4b.pcf -ucf mux21.ucf 
+bitgen -intstyle ise -f full_adder4b.ut full_adder4b.ncd 

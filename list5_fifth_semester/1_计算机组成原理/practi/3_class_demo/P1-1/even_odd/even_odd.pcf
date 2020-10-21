@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.58f on Wed Oct 21 22:43:21 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "odd" LOCATE = SITE "U16" LEVEL 1;
+COMP "a<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "a<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "a<2>" LOCATE = SITE "V9" LEVEL 1;
+COMP "a<3>" LOCATE = SITE "M8" LEVEL 1;
+COMP "a<4>" LOCATE = SITE "N8" LEVEL 1;
+COMP "a<5>" LOCATE = SITE "U8" LEVEL 1;
+COMP "a<6>" LOCATE = SITE "V8" LEVEL 1;
+COMP "even" LOCATE = SITE "V16" LEVEL 1;
+COMP "a<7>" LOCATE = SITE "T5" LEVEL 1;
+SCHEMATIC END;
+

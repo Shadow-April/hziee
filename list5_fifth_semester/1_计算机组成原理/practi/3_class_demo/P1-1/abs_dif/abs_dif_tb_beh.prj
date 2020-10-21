@@ -1,0 +1,7 @@
+verilog work "adder1b.v"
+verilog work "mux21.v"
+verilog work "full_adder4b.v"
+verilog work "comp.v"
+verilog work "abs_dif.v"
+verilog work "abs_dif_tb.v"
+verilog work "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v"

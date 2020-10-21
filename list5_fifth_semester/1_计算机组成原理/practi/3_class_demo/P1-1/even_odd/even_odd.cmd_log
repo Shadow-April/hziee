@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/HZIEE/2-COCP/2-Prac/P1-1/even_odd/even_odd.xst" -ofn "D:/HZIEE/2-COCP/2-Prac/P1-1/even_odd/even_odd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc even_odd.ucf -p xa6slx16-csg324-3 even_odd.ngc even_odd.ngd  
+map -intstyle ise -p xa6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o even_odd_map.ncd even_odd.ngd even_odd.pcf 
+par -w -intstyle ise -ol high -mt off even_odd_map.ncd even_odd.ncd even_odd.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml even_odd.twx even_odd.ncd -o even_odd.twr even_odd.pcf -ucf even_odd.ucf 
+bitgen -intstyle ise -f even_odd.ut even_odd.ncd 
+xst -intstyle ise -ifn "D:/HZIEE/2-COCP/2-Prac/P1-1/even_odd/even_odd.xst" -ofn "D:/HZIEE/2-COCP/2-Prac/P1-1/even_odd/even_odd.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc even_odd.ucf -p xa6slx16-csg324-3 even_odd.ngc even_odd.ngd  
+map -intstyle ise -p xa6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o even_odd_map.ncd even_odd.ngd even_odd.pcf 
+par -w -intstyle ise -ol high -mt off even_odd_map.ncd even_odd.ncd even_odd.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml even_odd.twx even_odd.ncd -o even_odd.twr even_odd.pcf -ucf even_odd.ucf 
+bitgen -intstyle ise -f even_odd.ut even_odd.ncd 

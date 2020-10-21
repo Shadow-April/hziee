@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="835" delta="unknown" >"D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif.v" Line 30: Too many parameters for module instance <arg fmt="%s" index="1">mux1</arg>
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="835" delta="unknown" >"D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif.v" Line 32: Too many parameters for module instance <arg fmt="%s" index="1">mux2</arg>
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif.v" Line 27: Port <arg fmt="%s" index="1">agb</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif.v" Line 30: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">q</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif.v" Line 32: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">q</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">4</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif.v" Line 35: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">a</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif.v" Line 36: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">a</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif.v" Line 37: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">a</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="unknown" >"D:/HZIEE/2-COCP/2-Prac/P1-1/abs_dif/abs_dif.v" Line 38: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">a</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+</messages>
+
