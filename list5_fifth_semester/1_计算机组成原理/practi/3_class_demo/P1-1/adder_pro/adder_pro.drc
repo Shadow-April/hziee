@@ -1,0 +1,8 @@
+Release 14.5 Drc P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Wed Oct 21 23:24:20 2020
+
+drc -z adder_pro.ncd adder_pro.pcf
+
+DRC detected 0 errors and 0 warnings.

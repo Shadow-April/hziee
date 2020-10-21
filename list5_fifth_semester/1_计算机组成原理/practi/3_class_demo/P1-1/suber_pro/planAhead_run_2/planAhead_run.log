@@ -1,0 +1,93 @@
+
+****** PlanAhead v14.5 (64-bit)
+  **** Build 247527 by xbuild on Mon Mar 25 17:13:07 MDT 2013
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1420 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/HZIEE/2-COCP/2-Prac/P1-1/suber_pro/pa.fromHdl.tcl
+# create_project -name suber_pro -dir "D:/HZIEE/2-COCP/2-Prac/P1-1/suber_pro/planAhead_run_2" -part xa6slx16csg324-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "suber_pro.ucf" [current_fileset -constrset]
+Adding file 'D:/HZIEE/2-COCP/2-Prac/P1-1/suber_pro/suber_pro.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {suber_pro.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top suber_pro $srcset
+# add_files [list {suber_pro.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xa6slx16csg324-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.5/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "D:/HZIEE/2-COCP/2-Prac/P1-1/suber_pro/suber_pro.v" into library work
+Loading clock regions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/aspartan6/xa6slx16/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/aspartan6/xa6slx16/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/aspartan6/xa6slx16/csg324/Package.xml
+Loading io standards from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.5/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.5/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [D:/HZIEE/2-COCP/2-Prac/P1-1/suber_pro/suber_pro.ucf]
+Finished Parsing UCF File [D:/HZIEE/2-COCP/2-Prac/P1-1/suber_pro/suber_pro.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 1e828385
+open_rtl_design: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 620.563 ; gain = 145.895
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin V15 [get_ports {s[3]}]
+endgroup
+startgroup
+set_property package_pin U15 [get_ports {s[2]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports {s[1]}]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports {s[0]}]
+endgroup
+startgroup
+set_property package_pin T5 [get_ports {x[3]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {x[2]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {x[1]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {x[0]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {y[3]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {y[2]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {y[1]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {y[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  overflow]]
+startgroup
+set_property package_pin V16 [get_ports {s[1]}]
+endgroup
+startgroup
+set_property package_pin T11 [get_ports cout]
+endgroup
+startgroup
+set_property package_pin R11 [get_ports overflow]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed Oct 21 23:34:49 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead
