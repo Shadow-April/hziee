@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/11.png</file>
+        <file>images/stock.png</file>
+        <file>images/surface_water.png</file>
+        <file>images/under_water.png</file>
+        <file>images/vilege_watter.png</file>
+        <file>images/1.png</file>
+        <file>images/2.png</file>
+        <file>images/3.png</file>
+        <file>images/4.png</file>
+        <file>images/5.png</file>
+    </qresource>
+</RCC>
