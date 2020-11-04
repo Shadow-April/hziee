@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/HZIEE/2-COCP/2-Prac/P1-1/fast_adder_4/fast_adder/fast_tb_isim_beh.exe" -prj "D:/HZIEE/2-COCP/2-Prac/P1-1/fast_adder_4/fast_adder/fast_tb_beh.prj" "work.fast_tb" "work.glbl" 
