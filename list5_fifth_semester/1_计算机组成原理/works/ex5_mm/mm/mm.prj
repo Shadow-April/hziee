@@ -1,0 +1,4 @@
+verilog work "ipcore_dir/RAM_B.v"
+verilog work "regs.v"
+verilog work "ram.v"
+verilog work "mm.v"

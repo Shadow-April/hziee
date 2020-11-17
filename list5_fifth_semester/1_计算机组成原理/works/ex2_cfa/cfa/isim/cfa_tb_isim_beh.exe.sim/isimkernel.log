@@ -1,0 +1,28 @@
+Command line:
+   cfa_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51801
+
+Sat Nov 14 18:31:03 2020
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5159.47 Meg
+
+ Total Signals          : 31
+ Total Nets             : 38
+ Total Signal Drivers   : 24
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 26
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 127
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 5002.19 Meg
+
+Sat Nov 14 18:32:40 2020
+
