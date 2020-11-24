@@ -1,0 +1,16 @@
+2020-2021-1 第9周QT上机任务6
+
+任务1.1：
+《Qt Creator快速入门》第3版实验讲义
+实验6、实验7、实验8
+
+1、若32位qt访问64位mysql驱动有问题，将尝试加入libmysql.dll，放到qt的bin文件夹。
+
+2、或者试下“QMYSQL”改为“QSQLITE”；
+
+3、额外参考
+Qt5.14.2连接MySQL8.0（windows安装版）
+https://blog.csdn.net/mr_tea_milk/article/details/107718186
+
+
+
