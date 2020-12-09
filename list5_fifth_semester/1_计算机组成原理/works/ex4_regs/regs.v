@@ -69,11 +69,12 @@ module regs(Clk,Reset,Write_reg,ADDR_SW,SEL_D_B,R_SEL,LED);
 					end
 				else				// Read Data
 					begin	
-						R_Data_A = REG_Files[ADDR_SW];
-						R_Data_B = REG_Files[ADDR_SW];
+						
+						
 			
 						if(R_SEL)	// Read Data Port_A
 							begin
+								R_Data_A = REG_Files[ADDR_SW];
 								case(SEL_D_B)	// Choose Byte to Show
 									2'b00: begin LED=R_Data_A[7:0]; end
 									2'b01: begin LED=R_Data_A[15:8]; end
@@ -83,6 +84,7 @@ module regs(Clk,Reset,Write_reg,ADDR_SW,SEL_D_B,R_SEL,LED);
 							end		// Read Data Port_A end
 						else			// Read Data Port_B
 							begin
+								R_Data_B = REG_Files[ADDR_SW];
 								case(SEL_D_B)	// Choose Byte to Show
 									2'b00: begin LED=R_Data_B[7:0]; end
 									2'b01: begin LED=R_Data_B[15:8]; end
