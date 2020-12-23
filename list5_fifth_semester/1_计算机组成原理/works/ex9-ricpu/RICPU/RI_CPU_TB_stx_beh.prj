@@ -1,0 +1,6 @@
+verilog isim_temp "ipcore_dir/ROM_B.v"
+verilog isim_temp "GPRs.v"
+verilog isim_temp "ALU.v"
+verilog isim_temp "RI_CPU.v"
+verilog isim_temp "RI_CPU_TB.v"
+verilog isim_temp "C:/Xilinx/14.5/ISE_DS/ISE//verilog/src/glbl.v"

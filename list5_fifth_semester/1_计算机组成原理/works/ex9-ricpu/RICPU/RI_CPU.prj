@@ -1,0 +1,4 @@
+verilog work "ipcore_dir/ROM_B.v"
+verilog work "GPRs.v"
+verilog work "ALU.v"
+verilog work "RI_CPU.v"
